@@ -49,6 +49,7 @@ code_html = """<!DOCTYPE html>
     </nav>
 
     <div class="hero" id="accueil">
+        <img src="logo1.png">
         <h1>De l’eau chaude grâce à la Terre et à la biomasse locale</h1>
         <p>Jusqu’à 80 % d’économies – 100 % renouvelable </p>
     </div>
@@ -104,4 +105,5 @@ print("Le fichier 'index.html' a été créé ici :")
 import os
 
 print(os.path.abspath("index.html"))
+
 print("\nDouble-clique dessus pour le voir dans ton navigateur")
